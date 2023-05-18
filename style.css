@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    margin-left: 18rem;
+}
+
+.img-container {
+    display: inline-block;
+    position: relative;
+  }
+.img-container .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.img-container .title.hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
