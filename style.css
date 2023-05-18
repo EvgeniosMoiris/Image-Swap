@@ -10,6 +10,7 @@ h1 {
     display: inline-block;
     position: relative;
   }
+  
 .img-container .title {
     position: absolute;
     top: 0;
